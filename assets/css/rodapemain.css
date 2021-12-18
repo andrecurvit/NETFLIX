@@ -1,0 +1,85 @@
+*********************************** RODAPÉ ************************************/
+
+footer, div.rodape {
+	position: relative;
+    height: 75px;
+	width: 100%;
+}
+
+.rodape {
+    color: pink;
+}
+
+
+ul.sociais, li.sociais, img.sociais, li.contato, div.ultdet {
+	position: relative;
+	background-color: black ;
+
+}
+
+nav.sociais {
+    position: relative;
+    top: 0px;
+}
+
+ul.sociais{
+	margin: 0 0 10px;
+    padding: 30px 0 0;
+    text-align: center;
+	height: 80px;
+	top: 0px;	
+}
+
+li.sociais {
+    margin: 5px 20px solid;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    height: 50px; width: 100px;
+    top: -20px;
+}
+	
+img.social {
+    height: 30px; width: 30px;
+    top: 10px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+li.contato{ list-style: none;}
+
+div.ultdet {
+	font-style: normal;
+	text-align: center;
+	top: -10px;
+}
+
+p.ultdet { color: white; }
+
+footer nav .sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+    transition: .2s;
+
+}
+
+/*div.rodape {
+    background: darkred;
+    bottom: 0;
+}
+*/
+
+footer.main {
+    position: relative;
+    top: 500px;
+}
+
+footer.p1 {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    top: 0;
+}
+
+div.rodape {
+    background-color: darkolivegreen;
+    width: 100%;
+}

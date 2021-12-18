@@ -1,0 +1,124 @@
+/************************************ RODAPÉ ************************************/
+/*
+footer, div.rodape {
+	position: relative;
+    height: 75px;
+	width: 100%;
+    flex-shrink: 0;
+}
+
+ul.sociais, li.sociais, img.sociais, li.contato, div.ultdet {
+	position: relative;
+	background-color: black;
+}
+
+ul.sociais{
+	margin: 0 0 10px;
+    padding: 30px 0 0;
+    text-align: center;
+	height: 80px;
+	top: 0px;	
+}
+
+li.sociais {
+    margin: 5px 20px solid;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    height: 50px; width: 100px;
+    top: -20px;
+}
+	
+img.social {
+    height: 30px; width: 30px;
+    top: 10px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+li.contato{
+	list-style: none;
+}
+
+div.ultdet {
+	font-style: normal;
+	text-align: center;
+	top: -10px;
+}
+
+p.ultdet {
+	color: white;
+}
+
+footer nav .sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+    transition: .2s;
+}*/
+
+/********************************************************************************/
+/************************************        ************************************/
+/************************************ RODAPÉ ************************************/
+/************************************        ************************************/
+/********************************************************************************/
+
+footer.rodape, div.rodape {
+    height: 75px;
+	width: 100%;
+    background-color: white /*#58D3F7*/;
+}
+
+footer.rodape {
+	color: white; /* Cor das letras */
+	bottom: 100%;
+	width: 100%;
+}
+
+footer.rodape, div.rodape, ul.sociais, li.sociais, img.social, li.contato, div.ultdet {
+	position: relative;
+	/*background-color: greenyellow;*/
+}
+
+ul.sociais{
+    background-color: transparent;
+	margin: 20px 0px 50px;
+    padding: 50px 0px 0px;
+    text-align: center;
+	height: 80px;
+	top: -20px;	
+}
+
+li.sociais {
+	background-color: transparent;
+    margin: 15px 28px solid;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    height: 50px; width: 50x;
+    top: 0px;
+}
+	
+img.social {
+	background-color: transparent;
+    height: 25px; width: 25px;
+    top: 8px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+li.contato{
+	list-style: none;
+}
+
+div.ultdet {
+	font-style: normal;
+	text-align: center;
+	background-color: grey; /*greenyellow*/;
+	top: 0px;
+}
+
+p.ultdet {
+	background-color: gray;
+}
+
+footer nav .sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+    transition: .2s;
+}
