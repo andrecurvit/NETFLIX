@@ -119,8 +119,8 @@ p.p-index{
 }
 
 img.capa {
-	width: 200px;
-	height: 300px;
+	width: 140px;
+	height: 210px;
 }
 
 .grid-container {
@@ -149,14 +149,16 @@ img.capa {
 	border: 1px solid black;
 	text-align: center;
 	font-size: 30px;
+	width: 160px;
+	height: 230px;
 
 }
 
 .capa img {
 	position: relative;
 /*	grid-column: 4 ; /*0,5 / span 1;*/
-	width: 181px;
-	height: 300px;
+width: 140px;
+height: 210px;
 	border-top: 8px solid #222;
 	border-bottom: 8px solid #222;
 	border-left: 8px solid #222;
@@ -169,7 +171,15 @@ p.sinopse {
 }
 
 p.nome {
-	font-size: 20px;
+	width: 100%;
+    height: 100%;
+    /* display: table-cell; */
+    /* vertical-align: top; */
+    /* max-width: 17ch; */
+    overflow: hidden; /* Mostra os 3 pontinhos*/
+    text-overflow: ellipsis; /* Modo de exibição se é 3 pontinhos ou não */
+    white-space: nowrap; /* Deixa o texto com o 3 pontinhos (...) */
+    font-size: 12px;
 }
 
 @media (min-width: 600px) {
@@ -185,6 +195,20 @@ p.nome {
 	img.capa {
 	width: 120px;
 	height: 200px;
+	}
+
+	p.nome {
+		width: 100%;
+		height: 100%;
+		/* display: table-cell; */
+		/* vertical-align: top; */
+		max-width: 17ch;
+		overflow: hidden; /* Mostra os 3 pontinhos*/
+		text-overflow: ellipsis; /* Modo de exibição se é 3 pontinhos ou não */
+		white-space: nowrap; /* Deixa o texto com o 3 pontinhos (...) */
+		font-size: 12px;
+		text-align: center;
+		align-items: center;
 	}
 
 }
